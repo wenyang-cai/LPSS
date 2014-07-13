@@ -5,7 +5,7 @@ Library Path Search System(LPSS) Project. It is a JSP project. The objective is 
 
 ====
 
-Video Demo: [LPSS Demo (youtube)](https://www.youtube.com/watch?v=QXlSangowjQ&feature=youtu.be)
+Video Demo: [LPSS Demo (youtube)](https://www.youtube.com/watch?v=QXlSangowjQ&feature=youtu.be), [LPSS Demo (youku)](http://v.youku.com/v_show/id_XNzM5NzYxMjcy.html)
 
 
 ## 1. Quick Guide
