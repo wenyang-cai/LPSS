@@ -1,0 +1,236 @@
+/*
+ * CSS file for LPSS Project.
+ * @author: Jiazhe Wang
+ */
+ 
+@charset "utf-8";
+/* =====================styles.css===================== */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0px;padding:0px;border:0px;}
+body{background:url(../images/bg.gif) repeat-x 0px 0px;color:#444;font-size:16px;font-family:Arial, Helvetica, sans-serif; line-height:25px;}
+
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+
+a{color:#333; text-decoration:none;}
+a:visited{color:#333;}
+a:hover,a:active{color:#c00; text-decoration:none;} 
+
+h1 {font-size:18px;font-family: '黑体';font-weight:normal;}
+h2 {font-size:22px;color:#000;}
+h2 a:link {color:#000;}
+h2 a:visited {color:#000;}
+
+.more {float:right;padding-right:20px;padding-top:5px;}
+
+.mid{width:1141px; overflow:hidden; margin:0 auto;}
+
+.adNone{display:none;}
+
+.li_last {border-right:0px;background:none;}
+
+.clearit{clear:both;height:1px;overflow:hidden;}
+
+
+
+.blue {
+    color:#1819ff; text-decoration:underline;
+}
+.blue:link {
+    color:#1819ff; text-decoration:underline;
+}
+.blue:visited {
+   color:#1819ff; text-decoration:underline;
+}
+.blue:hover {
+   color:#1819ff; text-decoration:underline;
+}
+
+.border01 {
+    border-bottom:#ddd dashed 1px;
+	padding-bottom:7px;
+	margin-bottom:7px;
+}
+
+
+.linkQuickJump{position:absolute; top:-1px; left:-1px;}
+
+
+.lb01 {
+     clear:both;
+}
+.lb01 li{
+     line-height:23px;
+	 height:23px;
+	 background:url(http://static.dmmap.com/images/ty_li_tb.gif) no-repeat 0px 2px;
+	 padding-left:12px; 
+	 clear:both;   
+}
+.lb01 a:link {
+     font-size:14px;
+}
+.lb01 a:visited {
+     font-size:14px;
+}
+.ty_lb1 a:hover {
+     font-size:14px;
+}
+
+
+ol {
+    background:url(http://static.dmmap.com/images/home/dmhome_1104_003.gif) no-repeat 0px -744px;
+}
+ol li{
+    padding-left:18px;
+	line-height:24px;
+	height:24px;
+}
+
+.topBj { height:10px; clear:both; overflow:hidden;}
+
+.kg1_top {height:12px; overflow:hidden; background:url(../images/kg1_top.gif) no-repeat 0px 0px;}
+.kg1_center { background:url(../images/kg1_center.gif) repeat-y 0px 0px; padding:0px 25px; }
+.kg1_foot { height:13px; background:url(../images/kg1_foot.gif) no-repeat 0px 0px;}
+
+.kg3_top {height:15px; background:url(../images/kg3_top.gif) no-repeat 0px 0px; overflow:hidden; }
+.kg3_center { background:url(../images/kg3_center.gif) repeat-y 0px 0px; padding:0px 6px; }
+.kg3_foot { height:13px; background:url(../images/kg3_foot.gif) no-repeat 0px 0px;}
+
+.kg4_top {height:12px; overflow:hidden; background:url(../images/kg4_top.gif) no-repeat 0px 0px;}
+.kg4_center { background:url(../images/kg4_center.gif) repeat-y 0px 0px; padding:0px 25px; }
+.kg4_foot { height:13px; background:url(../images/kg4_foot.gif) no-repeat 0px 0px;}
+
+.bt01 {
+    height:30px;
+	line-height:30px;
+    background:url(http://static.dmmap.com/images/home/dmhome_1104_003.gif) no-repeat 0px -120px;
+}
+
+.left01 {
+    width:735px; 
+	float:left;
+}
+.left02 {
+    width:276px; 
+	float:left;
+} 
+.center {
+
+}
+.right01 {
+    width:363px;
+	float:right;
+}
+.right02 {
+    width:819px;
+	float:right;
+}
+#head { height:96px; width:1200px; margin:0px auto;}
+
+.mainNav {width:888px; height:42px; line-height:42px; background:url(../images/menu.gif) no-repeat 0px 0px;}
+.mainNav li {float:left; width:125px; background:url(../images/menu_li.gif) no-repeat right 0px; text-align:center;}
+.mainNav .last {background:none;}
+.mainNav li a:link { font-size:16px; font-weight:bold;}
+.mainNav .hover a:link { color:#c00;}
+.mainNav .hover a:visited { color:#c00;}
+
+.mainTop { height:23px; background:url(../images/main_top.gif) no-repeat 0px 0px; overflow:hidden; clear:both;}
+.mainNr { border-left:#bfc5a3 solid 1px; border-right:#bfc5a3 solid 1px; background:#f1f2ea; padding:0px 15px; }
+.mainFoot { height:4px; background:url(../images/main_di.gif) no-repeat 0px 0px; overflow:hidden;}
+
+#introduction h2 { font-size:26px; padding:5px 0px;}
+#introduction p { line-height:25px; padding-bottom:10px;}
+#introduction .kg1_center {height:415px;}
+
+.kg2 { width:334px; height:125px; background:url(../images/kg2.gif) no-repeat 0px 0px; float:left; margin:10px 0px; padding: 10px 15px;}
+.kg2 dl { padding:0px; margin:0px;}
+.kg2 dl dt {width:140px; float:left;}
+.kg2 dl dd {width:170px; float:right; padding:0px; margin:0px; line-height:30px;}
+.kg2 dl dd a:link { text-decoration:underline;}
+
+#recom {margin-top:10px; line-height:25px;}
+#recom .kg1_center {height:120px;}
+
+#foot {clear:both; height:20px; text-align:right; padding:10px 0px 0px 0px;}
+
+.leftNav  li { display:block; height:33px; line-height:33px; border-bottom:#dfdfdf solid 1px; text-indent:20px;}
+.leftNav  li a {display:block; padding-left:20px; height:33px; line-height:33px; }
+.leftNav  li a:link {font-size:16px; font-weight:bold;}
+.leftNav  li a:visited {font-size:16px; font-weight:bold;}
+.leftNav  li a:hover { background:#fff;}
+
+.search {height:62px; background:url(../images/search.gif) no-repeat 0px 0px; }
+.searchMk {width:142px; float:left; position:relative; display:inline; margin:15px 10px 0px 50px; display:inline;}
+.tag_select{display:block;color:#000;width:132px;height:33px;background:url(../images/select.gif) no-repeat 0px 0px;line-height:33px; color:#000; font-size:12px; cursor:pointer; font-size:18px; padding-left:10px; }
+.tag_select_hover{ color:#ab3835; background:url(../images/select.gif) no-repeat 0px 0px; }
+.tag_select_open{ color:#ab3835; background:url(../images/select.gif) no-repeat 0px 0px; }
+ul.tag_options{position:absolute;list-style:none;background:#fff;padding:0 0 1px;margin:0;width:141px ; height:100px; overflow:hidden; overflow-y:auto; font-size:12px; margin-left:10px; cursor:pointer; z-index:1000; left:-10px; top:30px; font-size:16px; border:#ccc solid 1px; border-top:0px; }
+ul.tag_options li{background:#fff; display:block;width:140px;padding:0 10px;height:30px;text-decoration:none;line-height:20px;color:#000; font-weight:normal; font-size:16px; line-height:30px;}
+ul.tag_options li.open_hover{background:#ebebeb;color:#ab3835; font-weight:normal; font-size:16px}
+ul.tag_options li.open_selected{background:#ccc; font-size:16px; } 
+.search .textSearch { width:341px; height:33px; background:url(../images/textSearch.gif) no-repeat 0px 0px; float:left; border:0px; padding-left:10px; margin-top:15px;  line-height:33px; font-size:16px; }
+.search .text { width:515px; height:33px; background:url(../images/text.gif) no-repeat 0px 0px; float:left; border:0px; padding-left:10px; margin-top:15px;  line-height:33px; font-size:16px; }
+.search button { width:95px; height:33px; background:url(../images/sch_btn.gif) no-repeat 0px 0px; border:0px; cursor:pointer; float:left; margin:15px 0px 0px 10px; display:inline;} 
+
+.peopleTb {margin:10px 20px; width:730px; background:#cbcbcb}
+.peopleTb  td { height:30px; line-height:30px; text-align:center; background:#fff;}
+.peopleTb thead td {background:#a6a6a6}
+
+.leftAn { margin:5px 22px;}
+
+.tab-hd { margin-top:10px; height:27px; overflow:hidden;}
+.tab-hd li {float:left;}
+.tab-bd li div {height:445px; overflow-x:hidden; overflow-y:auto; }
+
+.mem {
+   margin-top:10px; _margin-top:0px;
+}
+.mem li {
+   display:block;
+   width:241px; 
+   height:112px;
+   background:url(../images/mem.gif) no-repeat 0px 0px;
+   margin-left:5px;
+   margin-bottom:10px;
+   clear:both;
+   overflow:hidden; 
+   position:relative;
+   }
+.mem li .tb {
+   position:absolute;
+   left:-28px;
+   top:0px;
+}
+.mem li span {
+   display:block;
+   width:24px; 
+   height:21px;
+   background:url(../images/mem.gif) no-repeat 0px 0px;
+   position:absolute;
+   left:0px;
+   top:0px;
+   text-align:center; 
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   color:#fff;
+}
+.mem li table {
+   margin:5px 0px;
+   margin-left:20px;
+}
+.mem li td {
+   font-size:10px;
+   padding-left:10px;
+   height:12px;
+   line-height:12px;
+}
+.map {height:520px; background:url(../images/Search_bg.gif) no-repeat 0px 0px; margin-bottom:10px;}
+.mapHd {border-top:#dcdcdc solid 1px; height:445px;overflow-x:hidden; overflow-y:auto;}
+
+.pics li {text-align:center; padding:5px 0px;}
+
+
+.load { margin:20px;}
+.load td { padding-left:10px; height:35px; line-height:35px; padding-top:10px;}
+.load td .an05 { height:30px; line-height:30px; margin-right:10px; padding:0px 10px; width:60px; margin-right:30px;}
+
+.personalBd td { padding-left:20px;}
