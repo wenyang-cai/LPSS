@@ -26,7 +26,8 @@ Just import the whole /LPSS folder as a Java EE project into Eclipse
 
 #### Use as tomcat webapps (not in Eclipse)
 
-If you are not using Eclipse, in /LPSS, you can 
+If you are not using Eclipse, in /LPSS, you can
+
 1. First of all, set tomcat and mysql, import sql file. Then CHANGE THE PASSWORD string in /LPSS/src/classes/util/MySQLConnection.java , after that, COMPLIE THE JAVA FILES! (you can just use javac)
 2. move the 'classes' folder (LPSS/build/classes) to LPSS/WebContent/WEB-INF/
 3. move the 'WebContent' folder (LPSS/WebContent) to your Tomcat home path, under /webapps folder (TomcatHOME/webapps/)
