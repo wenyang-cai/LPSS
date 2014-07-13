@@ -16,10 +16,10 @@ For the full installation guide in Chinese (中文说明), check [http://www.jia
 
 1. Install and set Tomcat
 2. Install and set MySQL
-    *import the database file (/databaseFile/library.sql) using the database name 'lpss'
+    * import the database file (/databaseFile/library.sql) using the database name 'lpss'
 3. (optional) Settings in Eclipse
 4. Some changes before testing
-    *change the database username and password String in /LPSS/src/classes/util/MySQLConnection.java 
+    * change the database username and password String in /LPSS/src/classes/util/MySQLConnection.java 
 
 ### 1.2 Use in different ways
 
