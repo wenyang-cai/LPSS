@@ -5,11 +5,11 @@ Library Path Search System(LPSS) Project. It is a JSP project. The objective is 
 
 ====
 
-## Quick Guide
+## 1. Quick Guide
 
 For the full installation guide in Chinese (中文说明), check [http://www.jiazhewang.com/blogs-cn/?p=76](http://www.jiazhewang.com/blogs-cn/?p=76)
 
-### Steps
+### 1.1 Setting Steps
 
 1. Install and set Tomcat
 2. Install and set MySQL
@@ -18,13 +18,13 @@ For the full installation guide in Chinese (中文说明), check [http://www.jia
 4. Some changes before testing
     *change the database username and password String in /LPSS/src/classes/util/MySQLConnection.java 
 
-### Use in different ways
+### 1.2 Use in different ways
 
-#### Use in Eclipse
+#### 1.2.1 Use in Eclipse
 
 Just import the whole /LPSS folder as a Java EE project into Eclipse
 
-#### Use as tomcat webapps (not in Eclipse)
+#### 1.2.2 Use as tomcat webapps (not in Eclipse)
 
 If you are not using Eclipse, in /LPSS, you can
 
