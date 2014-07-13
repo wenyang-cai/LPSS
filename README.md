@@ -19,8 +19,15 @@ For the full installation guide in Chinese (中文说明), check [http://www.jia
     * import the database file (/databaseFile/library.sql) using the database name 'lpss'
 3. (optional) Settings in Eclipse
 4. Some changes before testing
-    * change the database username and password String in /LPSS/src/classes/util/MySQLConnection.java 
-
+   * change the database username and password String in 
+```shell 
+      /LPSS/src/classes/util/MySQLConnection.java 
+```
+  
+```java
+      con = DriverManager.getConnection(
+			"jdbc:mysql://localhost:3306/lpss", "root", "CHANGE_YOUR_PASSWORD_HERE!!!");
+   ```
 ### 1.2 Use in different ways
 
 #### 1.2.1 Use in Eclipse
